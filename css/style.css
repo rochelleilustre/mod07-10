@@ -1,0 +1,66 @@
+body {
+	/*background-color: purple;*/
+
+	background-image: url("https://images.pexels.com/photos/58457/pexels-photo-58457.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#container{
+	/*background-color: salmon;*/
+	width: 40%;
+	margin: 0 auto;
+	border: 2px solid black;
+	
+	margin-top: 200px;
+
+}
+
+.completed {
+	color: grey;
+	text-decoration: line-through;
+}
+
+span {
+	color: red;
+	margin-right: 60px;
+	width: 0;
+	opacity: 0;
+	transition: 0.2s linear;
+	display: inline-block;
+
+}
+
+li:hover span {
+	width: 40px;
+	opacity: 1.0;
+}
+
+li {
+	list-style: none;
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 10px;
+}
+
+h1 {
+	background-color: black;
+	margin: 0;
+}
+
+
+ 
+h1 {
+	text-align: center;
+	color: white;
+}
+
+input{
+	text-align: center;
+	width: 448px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
