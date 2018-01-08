@@ -57,7 +57,8 @@ h1 {
 
 input{
 	text-align: center;
-	width: 448px;
+	width: 100%;
+	border: 0;
 }
 
 ul {
