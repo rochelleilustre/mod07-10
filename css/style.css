@@ -24,7 +24,7 @@ body {
 
 span {
 	color: red;
-	margin-right: 60px;
+	margin-right: 10px;
 	width: 0;
 	opacity: 0;
 	transition: 0.2s linear;
